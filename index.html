@@ -11,67 +11,71 @@ body {
     padding: 20px;
     line-height: 1.6;
     background:
-        linear-gradient(to right, rgba(10,10,24,0.88) 0%, rgba(10,10,24,0.66) 42%, rgba(10,10,24,0.12) 78%),
-        url('background1.png');
+        radial-gradient(circle at 80% 20%, rgba(95, 58, 180, 0.55) 0%, rgba(95, 58, 180, 0.0) 34%),
+        radial-gradient(circle at 20% 80%, rgba(0, 190, 255, 0.32) 0%, rgba(0, 190, 255, 0.0) 32%),
+        linear-gradient(135deg, #050713 0%, #101736 48%, #2a1144 100%);
     background-size: cover;
-    background-position: right center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
     font-weight: 600;
 }
+
 h1 {
-font-size: 32px;
-font-weight: 800;
-margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 10px;
 }
 
 h2 {
-margin-top: 30px;
-font-size: 22px;
-font-weight: 700;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 p {
-font-size: 16px;
+    font-size: 16px;
 }
 
 a {
-color: #ffffff;
-font-weight: 800;
+    color: #ffffff;
+    font-weight: 800;
 }
 
 .card {
-background: rgba(0, 0, 0, 0.38);
-border: 1px solid rgba(255, 255, 255, 0.18);
-border-radius: 18px;
-padding: 22px;
-backdrop-filter: blur(6px);
+    background: rgba(0, 0, 0, 0.38);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 18px;
+    padding: 22px;
+    backdrop-filter: blur(6px);
 }
+</style>
 </head>
 <body>
 <div class="card">
     <h1>Astro Burst Support</h1>
-<p>
-    Thanks for playing Astro Burst. If you need help, have feedback, or want to report an issue,
-    please contact support by email.
-</p>
 
-<h2>Contact</h2>
-<p>
-    Email: <a href="mailto:astroburst.support@gmail.com">astroburst.support@gmail.com</a>
-</p>
+    <p>
+        Thanks for playing Astro Burst. If you need help, have feedback, or want to report an issue,
+        please contact support by email.
+    </p>
 
-<h2>Support Information</h2>
-<p>
-    When contacting support, please include your device type, operating system version, and a short
-    description of the issue you are experiencing.
-</p>
+    <h2>Contact</h2>
+    <p>
+        Email: <a href="mailto:astroburst.support@gmail.com">astroburst.support@gmail.com</a>
+    </p>
 
-<h2>Privacy</h2>
-<p>
-    You can review the Astro Burst Privacy Policy on the privacy page for this app.
-</p>
-    </div>
+    <h2>Support Information</h2>
+    <p>
+        When contacting support, please include your device type, operating system version, and a short
+        description of the issue you are experiencing.
+    </p>
+
+    <h2>Privacy</h2>
+    <p>
+        You can review the Astro Burst Privacy Policy on the privacy page for this app.
+    </p>
+</div>
 </body>
 </html>
